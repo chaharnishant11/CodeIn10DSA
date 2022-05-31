@@ -2,6 +2,7 @@
 - A function calling itself is called recursion
 - In recursion we break bigger problem into smaller problem, and use recursion to solve those smaller problems and finally get a desired output, This is known as 'Recursion Leap of Faith'
 
+---
 
 [Question_1] : Sum of first n natural numbers using recursion
 
@@ -20,6 +21,8 @@ Note : Every recursion has a Base Case which prevents it from continuing indefin
 small calculation and recursive formula are interchangeable and one can come before the other
 
 - Most important part is Recursive Call and then at 2nd comes the Base case
+
+---
 
 [Question_2] : Find Factorial of number n
 
