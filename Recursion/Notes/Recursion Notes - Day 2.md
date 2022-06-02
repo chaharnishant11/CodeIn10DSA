@@ -1,4 +1,5 @@
 # Recursive Tree
+
 It is the pictorial/graphical representation of a recursion. It is used to solve and/or better understand a recursive pattern.
 
 **Question :** Program to calculate 2<sup>n</sup> , n starts from 1
@@ -13,7 +14,7 @@ This question utilizes a "Linear recursive tree".
 
 ---
 
- ### Fibonacci Series
+### Fibonacci Series
 
 **Question :** Program to find n<sup>th</sup> term of a Fibonacci series
 
