@@ -10,7 +10,7 @@ example : in number 1,2,3,4,5,6    => 1,2,3,4 can be a subarray/subsequence
 
 however, 1,2,3,5 is strictly a subsequence since it is not continuous
 
----
+----
 
 **QUESTION :** Find all possible subsequences of a string
 
@@ -36,4 +36,4 @@ Here we will be taking care of 3 main things :
 
 **Helper Function :** When we need some extra parameters then we create a helper function similar to our primary function, to deal with extra values
 
----
+----
