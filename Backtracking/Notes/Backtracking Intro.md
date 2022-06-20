@@ -1,22 +1,16 @@
+# What is Backtracking ?
 * Backtracking is an algorithmic technique that traverses and finds every possible combination for a computational problem. 
 * Backtracking is implemented using recursion, it helps in better optimization.
 * It uses recursive calling to find the solution by building a solution step by step increasing values with time.
 * If a solution is not suitable, that particular solution is eliminated and then we backtrack to try other possible combinations.
 
-Let's try to understand how backtracking works:
+# The main algorithm is as follows :-
 
-If we try to find correct sequence of Numbers (1 to 5) using backtracking:
-x - Represents Backtracked
-
-    2---4-X-
-    2---3---4---5
-1---2---3---5-X-
-    2---5-X-
-    5-X-
+- Step 1: Return success if the current point is a viable solution.
+- Step 2: Otherwise, if all paths have been exhausted (i.e., the current point is an endpoint), return failure because there is no feasible solution.
+- Step 3: If the current point is not an endpoint, backtrack and explore other points, then repeat the preceding steps.
     
-> So as we can understand whenever the result on a path is not suitable we backtrack and check other paths, unlike this recursion check all steps of each path even if any step is not suitable
-    
-Main questions to understand backtracking:
+# Important questions to understand backtracking:
 
 1. Combination Sum : We get a particular input like list of integers and a target integer, we have to return a list of all unique combinations under given constraints.
 
