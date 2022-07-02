@@ -2,14 +2,18 @@
 
 using namespace std;
 
-int main(){
-    int r;
-    cin>>r;
-
+void wall(int r,int c){
     for(int i=0;i<r;i++){
-        for(int j=0;j<i+1;j++){
+        for(int j=0;j<c;j++){
             cout<<"* ";
         }
         cout<<endl;
     }
+}
+
+int main(){
+    int r,c;
+    cin>>r>>c;
+
+    wall(r,c);
 }
