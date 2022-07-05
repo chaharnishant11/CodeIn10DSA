@@ -25,5 +25,9 @@ or
 **Accessing via indexes :**
 `name[index];`
 
+To pass an array to a function we need its size and name
+
+Array is passed by reference by default (so we are giving the location of the original variable, therefore changes within function affect original)
+in other primitive variables we pass the value (so in this we pass a copy so changes made in function don't effect original)
 
 Note : index are distances from origin that's why it starts with zero
