@@ -9,7 +9,7 @@ We use the **"Two Pointer"** technique, which is widely used while solving quest
 in this technique we create 2 pointers that point to same/different locations
 and we apply conditions to move these pointers forward or backward
 
-In this particular question (Majority element) we start one pointer from start and one from end and add their values to see wether it is equal to sum or not, 
+In this particular question (Sum in sorted array) we start one pointer from start and one from end and add their values to see wether it is equal to sum or not, 
 * If sum is equal to k we increase the answer by one, increase i by one and decrease j by one
 * If sum is greater than k we increase i by one keeping j constant for the time being
 * If sum is smaller than k we decrease j by one keeping i constant for the time being
