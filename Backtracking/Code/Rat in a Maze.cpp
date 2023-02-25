@@ -3,7 +3,7 @@ class Solution{
     vector<string>ans;
 
     bool isSafe(vector<vector<int>> &m,vector<vector<int>> &visited,int srcx,int srcy,int n){
-        if(srcx>=0 && srcy>=0 && srcx<n && srcy<n&&m[srcx][srcy]=-1&&!visited[srcx][srcy]){
+        if(srcx>=0 && srcy>=0 && srcx<n && srcy<n&&m[srcx][srcy]==1&&!visited[srcx][srcy]){
             return true;
         }
         return false;I
